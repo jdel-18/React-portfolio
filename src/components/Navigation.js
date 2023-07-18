@@ -1,11 +1,37 @@
 import React from 'react';
 
-const Navigation = () => {
+function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav>
-      {/* Add your navigation links here */}
-    </nav>
+    <ul className="nav navigation">
+      <li className="nav-item">
+        <a
+          href="#AboutMe"
+          onClick={() => handlePageChange('AboutMe')} 
+          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+        >
+          About
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Project"
+          onClick={() => handlePageChange('Project')}
+          className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
+        >
+          Projects
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Resume"
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
+    </ul>
   );
-};
+}
 
 export default Navigation;

@@ -1,9 +1,10 @@
 import React from 'react';
+import Navigation from './Navigation';
 
 const Header = () => {
   return (
     <header>
-      {/* Add your header content here */}
+      <h1>My Portfolio</h1>
     </header>
   );
 };

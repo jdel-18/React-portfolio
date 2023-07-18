@@ -1,5 +1,5 @@
 {
-  "name": "React-portfolio",
+  "name" : "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://jdel-18.github.io/React-portfolio",
@@ -18,7 +18,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
