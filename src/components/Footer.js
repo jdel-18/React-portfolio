@@ -1,26 +1,26 @@
 import React from 'react';
-import GitHubLogo from '../assets/github-logo.png';
-import LinkedInLogo from '../assets/linkedin-logo.png';
-import StackOverflowLogo from '../assets/stackoverflow-logo.png';
+import GitHubLogo from '../components/images/github.png';
+import LinkedInLogo from '../components/images/linkedin.png';
+import StackOverflowLogo from '../components/images/Stack.png';
 
 function Footer() {
   return (
     <footer>
       <div className="footer-links">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/jdel-18" target="_blank" rel="noopener noreferrer">
           <img src={GitHubLogo} alt="GitHub" className="footer-logo" />
           GitHub
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/josh-delves-3824a2268/" target="_blank" rel="noopener noreferrer">
           <img src={LinkedInLogo} alt="LinkedIn" className="footer-logo" />
           LinkedIn
         </a>
-        <a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://stackoverflow.com/users/21076803/j-j" target="_blank" rel="noopener noreferrer">
           <img src={StackOverflowLogo} alt="Stack Overflow" className="footer-logo" />
           Stack Overflow
         </a>
       </div>
-      <p>&copy; 2023 Your Portfolio Name. All rights reserved.</p>
+      <p>&copy; 2023 Josh Delves. All rights reserved.</p>
     </footer>
   );
 }

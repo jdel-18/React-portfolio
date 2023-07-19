@@ -1,16 +1,19 @@
 import React from 'react';
+import ProfileImage from '../images/me.jpeg';
+
 
 export default function AboutMe() {
   return (
-    <div>
-      <h1>About me!</h1>
+    <div className="about-me">
+      <h1 className='title'>About me!</h1>
+      <img src={ProfileImage} alt="Profile" />
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Hi! My name is Josh Delves, and I am from Ciudad Del Carmen, Mexico. After living in Houston, TX, for 12 years,
+        I moved to Southeast Asia. I spent 3 years in Singapore and 2 years in Malaysia, where I graduated high school early.
+        After finishing high school, I moved to Gunnison, Colorado, and did a year of college there before I decided that it wasn’t for me at the time.
+        So I spent the next four years there working many jobs, such as landscaping, being a lift operator at a ski resort, and mixing concrete for high-quality sculptures and climbing walls.
+        Hobbies I had while I lived in Colorado were snowboarding, skateboarding, and going on bike rides around the mountain trails.
+        Now I’ve moved back to Houston, Texas, and am currently taking a coding bootcamp with Rice University, trying to advance myself and get a career in the tech field.
       </p>
     </div>
   );
