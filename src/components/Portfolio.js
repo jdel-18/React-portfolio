@@ -5,6 +5,7 @@ import Resume from './pages/Resume';
 import Header from './Header';
 import Footer from './Footer';
 import Project from './pages/Project';
+import Contact from './pages/Contact';
 import Image1 from '../components/images/avengers.png';
 import Image2 from '../components/images/booktrkr.png';
 import '../App.css';
@@ -34,7 +35,11 @@ const Portfolio = () => {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
   };
+  
 
   const handlePageChange = (page) => setCurrentPage(page);
 
@@ -56,7 +61,7 @@ const Portfolio = () => {
   return (
     <div>
       <Header />
-        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       <div>
         {renderPage()}
       </div>
