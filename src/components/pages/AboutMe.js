@@ -5,7 +5,7 @@ import ProfileImage from '../images/me.jpeg';
 export default function AboutMe() {
   return (
     <div className="about-me">
-      <h1 className='title'>About me!</h1>
+      <h1 className=''>About me!</h1>
       <img src={ProfileImage} alt="Profile" />
       <p>
         Hi! My name is Josh Delves, and I am from Ciudad Del Carmen, Mexico. After living in Houston, TX, for 12 years,

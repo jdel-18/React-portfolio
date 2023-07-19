@@ -43,8 +43,6 @@ const Portfolio = () => {
       return <Contact />;
     }
   };
-  
-  
 
   const handlePageChange = (page) => setCurrentPage(page);
 

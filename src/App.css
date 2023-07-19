@@ -256,6 +256,52 @@ footer {
   background-color: #0056b3;
 }
 
+/* Resume */
+.Resume {
+  color: #333;
+}
+
+.Resume h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Resume section {
+  margin-bottom: 2rem;
+}
+
+.Resume h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.Resume h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.Resume p,
+.Resume ul {
+  margin-bottom: 1rem;
+}
+
+.Resume ul li {
+  margin-bottom: 0.5rem;
+}
+
+.Resume a {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.Resume a:hover {
+  background-color: #ccc;
+}
 
 
 /* Responsive Styles */
